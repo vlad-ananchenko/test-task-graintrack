@@ -1,0 +1,60 @@
+# Vite
+.vite/
+.vite/cache/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+
+# Build directories
+dist/
+dist-ssr/
+
+# Temporary folders
+tmp/
+temp/
+
+# Vite Output
+.cache/
+.parcel-cache/
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Test and temp files
+*foo
+*bar
+*test
+*temp
+*tmp
